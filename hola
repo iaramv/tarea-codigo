@@ -1,0 +1,27 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numero1=1, numero2=1,numero4=1, numero3=2,resultado=numero1*numero2;
+    
+    while (numero2<=10){
+    cout<<numero1<<" * "<<numero2<<" = "<<resultado<<endl;
+    numero2=numero2+1;
+        resultado=numero1*numero2;
+    }
+   
+    while (numero4<=10){
+    cout<<numero3<<" * "<<numero4<<" = "<<resultado<<endl;
+    numero4=numero4+1;
+        resultado=numero3*numero4;
+    }
+    
+    
+    
+    
+    return 0;
+}
